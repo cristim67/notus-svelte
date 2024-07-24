@@ -30,6 +30,12 @@ If you like bright and fresh colors, you will love this Free Tailwind CSS Templa
 - Navigate to https://localhost:5000
 - Check more about [Tailwind CSS](https://tailwindcss.com/?ref=creativetim)
 
+## Deploy
+
+:rocket: You can deploy your own version of the template to Genezio with one click:
+
+[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/notus-svelte&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
+
 ### Pages
 
 If you want to get inspiration or just show something directly to your clients,
