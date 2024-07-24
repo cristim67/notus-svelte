@@ -6,8 +6,8 @@
   "repository": "https://github.com/creativetimofficial/notus-svelte",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "cross-env CI=false cross-env PUBLIC_URL=/ rollup -c -w",
+    "build": "cross-env CI=false cross-env PUBLIC_URL=/ rollup -c",
+    "dev": "rollup -c -w",
     "start": "sirv public -s",
     "build:tailwind": "tailwind build public/assets/styles/index.css -o public/assets/styles/tailwind.css",
     "build:fontawesome": "mkdir -p public/assets/vendor/@fortawesome/fontawesome-free/webfonts && mkdir -p public/assets/vendor/@fortawesome/fontawesome-free/css && cp -a ./node_modules/@fortawesome/fontawesome-free/webfonts public/assets/vendor/@fortawesome/fontawesome-free/ && cp ./node_modules/@fortawesome/fontawesome-free/css/all.min.css public/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css",
